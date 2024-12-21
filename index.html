@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    
+    
+    <section id="home" class="section">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I am a beginner yet passionate developer, take a look at my works!</p>
+        <button class="btn" onclick="scrollToSection('#about')">Learn More</button>
+    </section>
+        <h2></h2>
+        <section id = "profile" class ="section">
+        <div class ="profile">
+            <img src="a0b5920a-5eec-48fc-8f97-64a6d7046fa0.jpg" alt ="Project 1"
+            height = "50" width = "50">
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hello, I am James.</p><br>
+        <p>I am a Computer Science student from USTP</p><br>
+        <p>I am still a beginner developer.</p><br>
+        <p>But I am striving to be better.</p><br>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Project 1 : Quick n' Easy Recipes</h2>
+        <div class="project-card">
+            <img src="download.webp" alt="Project 1" height="200" width="150"> 
+            <img src="467188831_1312419106597541_3436783763593404744_n.jpg" alt="Project 1" height="200" width="150">
+            <h3>Project 1</h3>
+            <p>A simple recipe app.</p>
+            <a href="https://github.com/JxYugo/quick-n-easy-recipes" target="_blank">
+                <button class="btn">View on Github</button>
+            </a>
+        </div>
+
+            <section id="contact" class="section">
+                <h2>Contact</h2>
+                <p>You can email me directly or use the form below.</p>
+            
+                <!-- Email Link -->
+                <a href="mailto:yugo.jamesxander8871@gmail.com">yugo.jamesxander8871@gmail.com</a>
+            
+                <!-- Contact Form -->
+                <form id="contact-form" action="https://formspree.io/f/mnnqeoyq" method="POST">
+                    <div>
+                        <label for="name">Your Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Your Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            
+                </a>
+            </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
